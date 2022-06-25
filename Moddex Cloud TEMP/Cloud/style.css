@@ -1,0 +1,120 @@
+html {
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+a { text-decoration: none; }
+::-webkit-scrollbar { width: 15px; }
+::-webkit-scrollbar-thumb { background: #83A1CD;  border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #738db3; }
+.reverse {
+    background-image: url(../Images/Sections/Seychelles/Cloud.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #b6e5e4;
+    height: 35%;
+    margin: 15px 10px 15px 10px;
+    border-radius: 15px;
+}
+.inverseWrapper {
+    background-color: transparent;
+    backdrop-filter: blur(15px) saturate(120%) brightness(107%);
+    border-radius: 15px;
+    padding: 0 25px 0 25px;
+}
+.inverse { color: white; letter-spacing: 0.25rem; }
+
+.indexBody {
+    padding: 1rem;
+}
+.implace { color: gray; letter-spacing: 0.5rem; text-transform: uppercase; margin-bottom: 1.5rem}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+
+.folder {
+    height: 100%;
+    width: 95%;
+    max-height: 100%;
+    max-width: 95%;
+    border: 2px black;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0 0 0 1rem;
+    display: flex;
+    align-items: center;
+}
+.folderText { font-size: 1.5rem; color: black; font-weight: lighter; }
+
+.back { background-color: #DDD; }
+
+.headerGrid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.icon { width: 3rem; height: auto; margin: 0 1rem 0 0; }
+
+
+.fileContainer {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.fileHeader {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+}
+.fileTitle {
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+}
+/* .fileViewpoint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .leftButtons {
+
+} */
+/* .videoViewpoint {
+
+} */
+/* .fileDownload {
+
+}*/
+
+video {
+    border-radius: 2rem;
+    width: 100%;
+}
+.fileViewpoint {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.fileIcon {
+    width: 100%;
+}
+.leftButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
